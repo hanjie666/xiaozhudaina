@@ -9,7 +9,7 @@
     http://www.springframework.org/schema/context/spring-context.xsd
     http://www.springframework.org/schema/tx
     http://www.springframework.org/schema/tx/spring-tx.xsd">
-    <context:component-scan base-package="com.cenl.o2o.service"/>
+    <context:component-scan base-package="cn.gpnu.xiaozhudaina.service"/>
 
     <!--配置事务管理器-->
     <bean id="transactionMannager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
